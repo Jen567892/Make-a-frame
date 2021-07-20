@@ -8,15 +8,19 @@ function setup(){
     video.hide();
 }
 function draw(){
-    circle(50,50,80);
+    image(video, 100,100,200,200)
+   
     stroke(255,0,0);
     fill(255,0,0);
-
-
+rect(50,50,300,20)
+rect(50,50,20,300)
+rect(350,50,20,300)
+rect(50,350,310,20)
 
     fill(0,128,0);
-    circle(0,128,0);
-    rect(90,460,420,20);
 
-    rect(90,460,420,20);
+    circle(50,50,60);
+    circle(350,50,60)
+    circle(350,350,60)
+    circle(50,350,60)
 }
